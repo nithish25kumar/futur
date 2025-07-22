@@ -1,6 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import '../../futur_mobile_banking/lib/repositary/screens/registerorlogin/splash.dart';
+import 'package:futur/repositary/screens/splash/splash.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

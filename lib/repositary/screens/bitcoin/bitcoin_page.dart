@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:futur/repositary/screens/pricetracker/LivePriceTicker.dart';
+
+import '../pricetracker/LivePriceTracker.dart';
 
 class BitcoinPage extends StatefulWidget {
   const BitcoinPage({super.key});

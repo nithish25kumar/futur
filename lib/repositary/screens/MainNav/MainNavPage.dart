@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../../../model/userDetail.dart';
-import '../biitcoin/bitcoin_page.dart';
+import '../bitcoin/bitcoin_page.dart';
 import '../homepage/homepage.dart';
-import '../savings/savings_page.dart';
+import '../savings/saving_page.dart';
 
 class MainNavPage extends StatefulWidget {
   final UserDetails user;

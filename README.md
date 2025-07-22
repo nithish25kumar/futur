@@ -1,16 +1,37 @@
-# futur
+💸 Futur – Mobile Banking & Stock Tracker App
 
-A new Flutter project.
+**Futur** is a modern Flutter-based mobile app that combines essential **banking features** with **live stock market tracking**, offering users a seamless, real-time financial experience.
 
-## Getting Started
+🧑‍💻 Developed By
+Nithish Kumar K
+3rd Year College Student
+VIT VELLORE
+LinkedIn →
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+-🚀 Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🔐 **Secure Authentication**
+    - Firebase Authentication (Phone Number, Google Sign-In)
+- 📈 **Live Stock Prices**
+    - Real-time stock data using TwelveData API
+- 📊 **Interactive Charts**
+    - Built with Syncfusion for visual insights
+- ❤️ **Watchlist**
+    - Add favorite stocks to wishlist (Firestore)
+- 🔄 **Auto Refresh**
+    - Stock prices auto-update every 1 minute
+- 🌐 **Firebase Integration**
+    - Firestore for user data, dynamic API keys, and more
+
+
+🛠️ Tech Stack
+
+- **Flutter** – Mobile app framework
+- **Firebase** – Auth, Firestore, Storage
+- **TwelveData API** – Live stock prices
+- **Syncfusion Charts** – Beautiful chart visualizations
+- **flutter_spinkit** – Custom loading indicators
+
+

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:futur/repositary/screens/MainNav/MainNavPage.dart';
-import 'package:futur/repositary/screens/homepage/homepage.dart';
 import 'package:futur/repositary/screens/registerorlogin/register.dart';
 import '../../../model/userDetail.dart';
 

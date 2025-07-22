@@ -5,7 +5,7 @@ import 'package:web_socket_channel/web_socket_channel.dart';
 import 'package:intl/intl.dart';
 
 class LivePriceTicker extends StatefulWidget {
-  final String currency; // Example: "BTC"
+  final String currency;
 
   const LivePriceTicker({super.key, required this.currency});
 
@@ -21,8 +21,8 @@ class _LivePriceTickerState extends State<LivePriceTicker> {
   @override
   void initState() {
     super.initState();
-    fetchExchangeRate(); // Fetch INR rate first
-    connectToWebSocket(); // Connect to BTC ticker
+    fetchExchangeRate();
+    connectToWebSocket();
   }
 
   Future<void> fetchExchangeRate() async {
@@ -37,7 +37,7 @@ class _LivePriceTickerState extends State<LivePriceTicker> {
     } catch (e) {
       print('Failed to fetch INR rate: $e');
       setState(() {
-        inrRate = 83.0; // Fallback rate
+        inrRate = 83.0;
       });
     }
   }

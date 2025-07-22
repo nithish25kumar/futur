@@ -12,6 +12,7 @@ LinkedIn →https://www.linkedin.com/in/nithish-kumar-9b29b3287/
 
 -🚀 Features
 
+<<<<<<< HEAD
 * 🔐 **Secure Authentication**
   - Firebase Authentication (Phone Number, Google Sign-In)
 * 📈 **Live Stock Prices**
@@ -23,6 +24,19 @@ LinkedIn →https://www.linkedin.com/in/nithish-kumar-9b29b3287/
 * 🔄 **Auto Refresh**
   - Stock prices auto-update every 1 minute
 * 🌐 **Firebase Integration**
+=======
+- 🔐 **Secure Authentication**
+  - Firebase Authentication (Phone Number, Google Sign-In)
+- 📈 **Live Stock Prices**
+  - Real-time stock data using TwelveData API
+- 📊 **Interactive Charts**
+  - Built with Syncfusion for visual insights
+- ❤️ **Watchlist**
+  - Add favorite stocks to wishlist (Firestore)
+- 🔄 **Auto Refresh**
+  - Stock prices auto-update every 1 minute
+- 🌐 **Firebase Integration**
+>>>>>>> 32e9044 (Updated UI)
   - Firestore for user data, dynamic API keys, and more
 
 

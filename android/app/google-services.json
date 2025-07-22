@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "990093975974",
+    "project_id": "futur-1d83e",
+    "storage_bucket": "futur-1d83e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990093975974:android:1d3fb14ff0b2c937a32f67",
+        "android_client_info": {
+          "package_name": "com.example.futur_mobile_banking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990093975974-geh9gukcflvmjnndtu5vj1nl8c8eoobe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.futur_mobile_banking",
+            "certificate_hash": "c24f4e45069e60060c3b2439e42e2e0bace70e3e"
+          }
+        },
+        {
+          "client_id": "990093975974-1p515fplct6fuca9faqcn15cvsqmf9bh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZliW6jV16ReXLfiRK3HFjwAEAxwcjZr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990093975974-1p515fplct6fuca9faqcn15cvsqmf9bh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "990093975974-gasqd0vfrdqa8t3f6fq4qcgqvhmgbdr9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.futurMobileBanking"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

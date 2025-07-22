@@ -7,7 +7,7 @@
     <uses-permission android:name="android.permission.SEND_SMS"/>
 
     <application
-        android:label="futur_mobile_banking"
+        android:label="futur-StockTracker"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
 

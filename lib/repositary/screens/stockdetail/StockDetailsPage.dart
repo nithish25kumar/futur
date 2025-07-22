@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:syncfusion_flutter_charts/charts.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 
 class StockDetailsPage extends StatefulWidget {
   final String symbol;
@@ -45,7 +46,7 @@ class _StockDetailsPageState extends State<StockDetailsPage> {
         setState(() {
           price = points.first.price;
           prevClose = points.length > 1 ? points[1].price : price;
-          chartData = points.reversed.toList(); // ascending order
+          chartData = points.reversed.toList();
           isLoading = false;
         });
       }
@@ -73,7 +74,12 @@ class _StockDetailsPageState extends State<StockDetailsPage> {
         centerTitle: true,
       ),
       body: isLoading
-          ? const Center(child: CircularProgressIndicator())
+          ? const Center(
+              child: SpinKitWave(
+                color: Colors.black,
+                size: 40.0,
+              ),
+            )
           : SingleChildScrollView(
               padding: const EdgeInsets.all(20),
               child: Column(
@@ -110,9 +116,9 @@ class _StockDetailsPageState extends State<StockDetailsPage> {
                   const SizedBox(height: 24),
                   const Divider(),
                   const SizedBox(height: 16),
-                  Text(
-                    '📈 ',
-                    style: const TextStyle(fontWeight: FontWeight.bold),
+                  const Text(
+                    '📈',
+                    style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                   const SizedBox(height: 10),
                   SizedBox(

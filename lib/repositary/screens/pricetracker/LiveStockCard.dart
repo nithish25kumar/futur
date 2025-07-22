@@ -3,6 +3,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 
 class LiveStockCard extends StatefulWidget {
   final String symbol;
@@ -80,11 +81,16 @@ class _LiveStockCardState extends State<LiveStockCard> {
         children: [
           Icon(widget.icon, size: 30, color: Colors.black),
           const SizedBox(height: 10),
-          Text(widget.symbol,
-              style: const TextStyle(fontWeight: FontWeight.bold)),
+          Text(
+            widget.symbol,
+            style: const TextStyle(fontWeight: FontWeight.bold),
+          ),
           const SizedBox(height: 6),
           isLoading
-              ? const CircularProgressIndicator()
+              ? const SpinKitWave(
+                  color: Colors.black,
+                  size: 20.0,
+                )
               : Text(
                   '\$${price!.toStringAsFixed(2)}',
                   style: const TextStyle(

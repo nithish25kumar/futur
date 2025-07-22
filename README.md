@@ -6,7 +6,7 @@
 Nithish Kumar K
 3rd Year College Student
 VIT VELLORE
-LinkedIn →
+LinkedIn →https://www.linkedin.com/in/nithish-kumar-9b29b3287/
 
 
 

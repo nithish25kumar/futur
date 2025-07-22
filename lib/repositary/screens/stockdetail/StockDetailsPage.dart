@@ -114,11 +114,11 @@ class _StockDetailsPageState extends State<StockDetailsPage> {
                     ],
                   ),
                   const SizedBox(height: 24),
-                  const Divider(),
                   const SizedBox(height: 16),
                   const Text(
-                    '📈',
-                    style: TextStyle(fontWeight: FontWeight.bold),
+                    'CHART :',
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold, color: Colors.red),
                   ),
                   const SizedBox(height: 10),
                   SizedBox(
